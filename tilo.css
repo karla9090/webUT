@@ -12,7 +12,7 @@ body {
     padding: 10px 20px;
 }
 
-.header .container {
+.header .deposito {
     display: flex;
     justify-content:center;
     align-items: center;
@@ -40,7 +40,11 @@ body {
     min-width: 200px;
 }
 
-.chart h2, .chart h3 {
+.chart h2{
+    margin-top: 0;
+}
+
+.chart h3 {
     margin-top: 0;
 }
 
@@ -48,7 +52,7 @@ body {
     padding-left: 20px;
 }
 
-.redes-media {
+.redes {
     position: absolute;
     top: 30%;
     left: 40px;
@@ -57,17 +61,16 @@ body {
     flex-direction: column;
 }
 
-.redes-media a {
+.redes a {
     text-align: center;
     margin: 2px 0;
-    border: 5px solid #013c20;;
     color: #06650e;
     font-size: 30px;
     border-radius: 55%;
     text-decoration: none
 }
 
-.main-content {
+.main-recipiente {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
