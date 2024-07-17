@@ -28,7 +28,7 @@ body {
    
     height: 50px;
     margin-right: 20px;
-    position:right;
+    position:right (-30%);
 }
 
 .main-content {
@@ -39,24 +39,24 @@ body {
     justify-content: center;
 }
 
-.card {
+.chart {
     background: rgba(29, 7, 118, 0.552);
     color: white;
-    padding: 40px;
-    border-radius: 40px;
+    padding: 30px;
+    border-radius: 35px;
     width: 35%;
-    min-width: 300px;
+    min-width: 200px;
 }
 
-.card h2, .card h3 {
-    margin-top: 0;
+.chart h2, .chart h3 {
+    margin-top: -1;
 }
 
-.card ul {
+.chart ul {
     padding-left: 20px;
 }
 
-.social-media {
+.redes-media {
     position: absolute;
     top: 30%;
     left: 40px;
@@ -65,12 +65,13 @@ body {
     flex-direction: column;
 }
 
-.social-media a {
+.redes-media a {
     text-align: center;
     margin: 2px 0;
-    border: 1px solid #013c20;;
-    color: #0e5014;
+    border: 5px solid #013c20;;
+    color: #06650e;
     font-size: 30px;
+    border-radius: 55%;
     text-decoration: none
 }
 footer {
